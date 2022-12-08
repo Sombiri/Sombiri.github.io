@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/3'RNAseq_2021
 date: 2021-07-08
 venue: 'EMBnet.journal'
-paperurl: ''
+paperurl: '/files/pdf/3RNAseq_2021'
 link: 'http://dx.doi.org/10.14806/ej.26.A.968'
 citation: 
 ---

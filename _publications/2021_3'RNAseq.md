@@ -11,4 +11,4 @@ citation: "Temitayo Adebanji Olagunju, Chisom Ezekannagha, Andreas Gisel (2021).
 
 <!---[Download paper here](/files/pdf/3RNAseq_2021) --->
 
-Recommended citation: Temitayo Adebanji Olagunju, **Chisom Ezekannagha**, Andreas Gisel (2021). "3'-Tag RNA-Sequencing." <i>EMBnet.journal</i>. 26(A)968. doi:10.14806/ej.26.A.968.
+<!--- Recommended citation: Temitayo Adebanji Olagunju, **Chisom Ezekannagha**, Andreas Gisel (2021). "3'-Tag RNA-Sequencing." <i>EMBnet.journal</i>. 26(A)968. doi:10.14806/ej.26.A.968. --->

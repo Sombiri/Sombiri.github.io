@@ -3,7 +3,9 @@ title: "DNAsmart: Multiple attribute ranking tool for DNA data storage system"
 collection: publications
 permalink: /publication/2023_dnasmart
 date: 2023-05-27
-venue: 'CSBJ'
+venue: 'Computational and Structural Biotechnology Journal'
+#paperurl:
+#link:
 ---
 
 <!---[Download paper here](/files/pdf/Design_consideration_2022.pdf)--->

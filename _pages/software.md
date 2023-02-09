@@ -9,9 +9,12 @@ My research mostly involves providing visual solutions to explore and improve th
 
 [DNAsmart: DNA Storage Multi-Attribute Ranking Tool](https://dnasmart.mathematik.uni-marburg.de/)
 
-![](/images/software/ezekannagha2023csbj.webp)(https://github.com/Sombiri/DNAsmart)
+![](/images/software/ezekannagha2023csbj.webp)
+
+<!-- (https://github.com/Sombiri/DNAsmart) -->
   
 [Context-Aware Phylogenetic Trees for Phylogeny-based Taxonomy Visualization](https://capt.mathematik.uni-marburg.de/)
 
-![](/images/software/kaya2022fg.webp)(https://github.com/ghattab/CAPT)
+![](/images/software/kaya2022fg.webp)
+<!-- (https://github.com/ghattab/CAPT) -->
 

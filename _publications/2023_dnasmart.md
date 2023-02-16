@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2023_dnasmart
 date: 2023-02-10
 venue: 'Computational and Structural Biotechnology Journal'
-#paperurl:
+#paperurl: '/files/pdf/DNAsmart_2023.pdf'
 link: 'https://doi.org/10.1016/j.csbj.2023.02.016'
 ---
 

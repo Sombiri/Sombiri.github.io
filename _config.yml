@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Chisom Ezekannagha"
   avatar           : "3953273590_704e3899d5_m.jpg"
-  bio              : "PhD student"
-  location         : "Marburg, Germany"
+  bio              : "Postdoctoral Researcher"
+  location         : "Berlin, Germany"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            : "chisom.ezekannagha@uni-marburg.de"
+  googlescholar    : "https://scholar.google.com/citations?user=QU3WdWwAAAAJ&hl=en"
+  email            : "ezekannaghac@rki.de"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "@_ChisomE"
+  X(twitter)          : "@_ChisomE"
   vine             :
   weibo            :
   xing             :

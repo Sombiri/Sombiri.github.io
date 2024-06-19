@@ -18,8 +18,6 @@ I then progressed to [Phillipps-Universität Marburg](https://www.uni-marburg.de
 
 Before my doctoral studies, I served as a Research Fellow and Supervisor at the [International Institute of Tropical Agriculture](https://www.iita.org/) in Ibadan, Nigeria. Under the guidance of Dr. Andreas Gisel, my work centered on molecular biology, specifically whole genome sequencing and annotation. My efforts here contributed significant insights to the field, fostering advancements in genomic research.
 
-### Research Philosophy 
-I approach research as a diligent exploration and analysis of scientific challenges aimed at not just confirming existing theories and facts but also pushing the boundaries of what we know. This dedication fuels my work in public health informatics, where I strive to make existing and new technologies not only accessible but also clear, usable and reusable.
  
 My complete CV can be found [here](/files/pdf/Chisom_CV.pdf).
 

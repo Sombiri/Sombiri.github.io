@@ -6,6 +6,7 @@ date: 2021-07-08
 venue: 'EMBnet.journal'
 #paperurl: '/files/pdf/3RNAseq_2021.pdf'
 link: 'http://dx.doi.org/10.14806/ej.26.A.968'
+#excerpt: "<!-- Replace with 1–2 sentence abstract. -->"
 #citation: "Temitayo Adebanji Olagunju, Chisom Ezekannagha, Andreas Gisel (2021). &quot;3'-Tag RNA-Sequencing.&quot; <i>EMBnet.journal</i>. 26(A)968. doi:10.14806/ej.26.A.968"
 ---
 

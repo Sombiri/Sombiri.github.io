@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Research"
-permalink: /Research/
+permalink: /research/
 author_profile: true
 ---
 
@@ -26,7 +26,7 @@ My research interest includes but not limited to:
 - <small>**2022.** Oxford ML Summer School. Virtual. (attendee)</small>
 - <small>**2021.** Bio+Med+Vis Spring School. Virtual. (attendee)</small>
 - <small>**2021.** 11th EG Workshop on Visual Computing for Biology and Medicine (VCBM). (attendee)</small>
-- <small>**2021.** Symposium on Interdisciplinary Bioinformatics and Biomedical Data Science (IBBMDS). (attendee)
+- <small>**2021.** Symposium on Interdisciplinary Bioinformatics and Biomedical Data Science (IBBMDS). (attendee)</small>
 - <small>**2020.** IEEE Visualization Conference (VIS). (attendee)</small>
 - <small>**2020.** Eurographics & Eurovis (EGEV). (attendee)</small>
 - <small>**2019.** The 1st Nigerian Bioinformatics Conference (NBC) (presenter)</small>

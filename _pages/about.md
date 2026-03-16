@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am Dr. Chisom Ezekannagha, a Postdoctoral Researcher and member of the Visualization Group at the Center for Artifical Intelligence in Public Health(ZKI-PH) at [Robert Koch Institute](https://www.rki.de/EN), led by [Dr. habil. Georges Hattab](https://visualization.group/hattab/). I specialize in leveraging the power of advanced visualization and artifical intelligence (AI) to make public health data more accessible and actionable. In my role, I am dedicated to developing interactive tools that simplify complex datasets, enabling health professionals and policymakers to make informed decisions based on clear and actionable insights.
+Welcome! I am Dr. Chisom Anyabolu, a Postdoctoral Researcher and member of the Visualization Group at the Center for Artifical Intelligence in Public Health(ZKI-PH) at [Robert Koch Institute](https://www.rki.de/EN), led by [Dr. habil. Georges Hattab](https://visualization.group/hattab/). I specialize in leveraging the power of advanced visualization and artifical intelligence (AI) to make public health data more accessible and actionable. In my role, I am dedicated to developing interactive tools that simplify complex datasets, enabling health professionals and policymakers to make informed decisions based on clear and actionable insights.
 
 ### Previous Experiences
 

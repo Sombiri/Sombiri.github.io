@@ -6,6 +6,7 @@ date: 2023-02-10
 venue: 'Computational and Structural Biotechnology Journal'
 #paperurl: '/files/pdf/DNAsmart_2023.pdf'
 link: 'https://doi.org/10.1016/j.csbj.2023.02.016'
+excerpt: "<!-- Replace with 1–2 sentence abstract. -->"
 ---
 
 <!---[Download paper here](/files/pdf/Design_consideration_2022.pdf)--->

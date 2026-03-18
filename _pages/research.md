@@ -36,6 +36,6 @@ My research interest includes but not limited to:
 - <small>**2022. Seminar** Introduction to Bioinformatics. Department of Mathematics and Computer Science, University of Marburg. Marburg, Germany. (tutor)</small>
 - <small>**2022. Group student project (Projektarbeit)** DNA Storage Encodings. Department of Mathematics and Computer Science, University of Marburg. Marburg, Germany. (co-organizer, tutor)</small>
 - <small>**2021. Lecture** Data Visualization. Department of Mathematics and Computer Science, University of Marburg. Marburg, Germany. (collaborator)</small>
-- <small>**2020-., 2022. Seminar** Biological Data Visualization. Department of Mathematics and Computer Science, University of Marburg. Marburg, Germany. (co-organizer, presenter)</small>
+- <small>**2020-2022. Seminar** Biological Data Visualization. Department of Mathematics and Computer Science, University of Marburg. Marburg, Germany. (co-organizer, presenter)</small>
 
 <!-- markdownlint-enable MD033 -->

@@ -5,37 +5,32 @@ permalink: /research/
 author_profile: true
 ---
 
-I approach research as a diligent exploration and analysis of scientific challenges aimed at not just confirming existing theories and facts but also pushing the boundaries of what we know. This dedication fuels my work in public health informatics, where I strive to make existing and new technologies not only accessible but also clear, usable and reusable.
+<div class="research-content" markdown="1">
 
-My research interest includes but not limited to:
+My research lies at the intersection of artificial intelligence, data visualization, and computational approaches for biomedical and public-health research. I am interested both in developing computational methods and in understanding how the behaviour, limitations, and outputs of AI systems can be evaluated and interpreted in practice.
 
-- Bioinformatics
-- AI/ML
-- Visualization
-- Biomedical informatics
+## AI Evaluation and Reliability
 
-###### Selected events
+My work investigates how computational and AI-based methods can be evaluated in ways that go beyond a single performance measure.
 
-<!-- markdownlint-disable MD033 -->
+I am interested in benchmarking and comparing computational approaches, understanding how modelling and methodological choices influence results, and examining whether the conclusions drawn from AI systems remain reliable under different assumptions or plausible alternatives.
 
-- <small>**2024.** dida Conference on machine learning (attendee)</small>
-- <small>**2022.** IEEE Visualization Conference (VIS). Virtual. (attendee)</small>
-- <small>**2022.** 24th EG Conference on Visualization (EuroVis). Rome, Italy. (attendee, Student Volunteer)</small>
-- <small>**2022.** The 1st International Conference on Data Storage in Molecular Media. Virtual. (presenter)</small>
-- <small>**2021.** IEEE Visualization Conference (VIS). Virtual. (attendee)</small>
-- <small>**2022.** Oxford ML Summer School. Virtual. (attendee)</small>
-- <small>**2021.** Bio+Med+Vis Spring School. Virtual. (attendee)</small>
-- <small>**2021.** 11th EG Workshop on Visual Computing for Biology and Medicine (VCBM). (attendee)</small>
-- <small>**2021.** Symposium on Interdisciplinary Bioinformatics and Biomedical Data Science (IBBMDS). (attendee)</small>
-- <small>**2020.** IEEE Visualization Conference (VIS). (attendee)</small>
-- <small>**2020.** Eurographics & Eurovis (EGEV). (attendee)</small>
-- <small>**2019.** The 1st Nigerian Bioinformatics Conference (NBC) (presenter)</small>
+This research builds on my work in the evaluation of scientific software and computational methods and increasingly extends to broader questions about the reliability of AI systems and the evidence supporting their outputs.
 
-###### Teaching
+## Visualization and Human-AI Interaction
 
-- <small>**2022. Seminar** Introduction to Bioinformatics. Department of Mathematics and Computer Science, University of Marburg. Marburg, Germany. (tutor)</small>
-- <small>**2022. Group student project (Projektarbeit)** DNA Storage Encodings. Department of Mathematics and Computer Science, University of Marburg. Marburg, Germany. (co-organizer, tutor)</small>
-- <small>**2021. Lecture** Data Visualization. Department of Mathematics and Computer Science, University of Marburg. Marburg, Germany. (collaborator)</small>
-- <small>**2020-2022. Seminar** Biological Data Visualization. Department of Mathematics and Computer Science, University of Marburg. Marburg, Germany. (co-organizer, presenter)</small>
+Visualization has been a central part of my work, from exploring complex biological and biomedical data to supporting the interpretation and evaluation of AI systems.
 
-<!-- markdownlint-enable MD033 -->
+I am interested in how interactive and visual approaches can help experts explore data, understand model behaviour, compare alternatives, identify limitations, and interpret uncertainty.
+
+More recently, my work has also considered how information about uncertainty can be made useful for decision-making: not only how uncertainty should be presented, but how it can help determine when to proceed, seek additional information, or involve human oversight.
+
+## AI for Biomedical and Public-Health Research
+
+A substantial part of my research has involved applying and developing computational and machine-learning approaches for biomedical and public-health problems.
+
+My work has included bioinformatics, computational genomics, antimicrobial-resistance-related research, biomedical data analysis, public-health applications, and scientific software.
+
+These application areas also motivate many of the broader questions I now study about AI evaluation, uncertainty, and reliability, particularly in settings where model outputs may contribute to scientific interpretation or human decision-making.
+
+</div>

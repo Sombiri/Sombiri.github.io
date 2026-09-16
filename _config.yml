@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=QU3WdWwAAAAJ&hl=en"
-  email            : "ezekannaghac@rki.de"
+  email            : "anyaboluc@rki.de"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/chisom-ezekannagha"
+  linkedin         : "https://www.linkedin.com/in/chisom-anyabolu"
   orcid            : "https://orcid.org/0000-0003-3433-3340"
   pinterest        :
   soundcloud       :
@@ -271,6 +271,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-redirect-from
   - jemoji
 
 

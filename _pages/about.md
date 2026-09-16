@@ -1,22 +1,17 @@
 ---
 permalink: /
-title: "About me"
+title: "About Me"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Welcome! I am Dr. Chisom Anyabolu, a Postdoctoral Researcher and member of the Visualization Group at the Center for Artifical Intelligence in Public Health(ZKI-PH) at [Robert Koch Institute](https://www.rki.de/EN), led by [Dr. habil. Georges Hattab](https://visualization.group/hattab/). I specialize in leveraging the power of advanced visualization and artifical intelligence (AI) to make public health data more accessible and actionable. In my role, I am dedicated to developing interactive tools that simplify complex datasets, enabling health professionals and policymakers to make informed decisions based on clear and actionable insights.
+I am a Postdoctoral Researcher at the [Robert Koch Institute](https://www.rki.de/EN) and a member of the [Visualization Group](https://visualization.group/) at the Center for Artificial Intelligence in Public Health(ZKI_PH).
 
-### Previous Experiences
+My research combines artificial intelligence, data visualization, and computational methods to study complex problems in biomedical and public-health research. I am particularly interested in how AI systems are evaluated, how uncertainty and model limitations are communicated and understood, and how visualization can support experts in exploring data, interpreting model behaviour, and making informed decisions.
 
-My academic journey began at [Anambra State University, Uli](https://coou.edu.ng/), where I earned my bachelor's degree in Computer Science. I continued my studies at the [University of Ibadan](https://www.ui.edu.ng/), obtaining a master’s degree in Computer Science with a specialization in Bioinformatics.
-<!-- Throughout my educational path, I was supported by fellowships from the Wellcome Trust in the United Kingdom and H3Africa in South Africa, which significantly aided my research and studies. -->
+My background spans bioinformatics, computational genomics, machine learning, data visualization, and scientific software development. Across these areas, my work has increasingly focused on questions of AI reliability: how we assess whether model outputs can be trusted, how modelling choices affect the conclusions we draw, and how uncertainty and limitations can be meaningfully incorporated into human decision-making.
 
-I then progressed to [Phillipps-Universität Marburg](https://www.uni-marburg.de/en) as a Research Associate and PhD student, mentored by [Prof. Dominik Heider](http://heiderlab.de/?page_id=146) and [Dr. habil. Georges Hattab](https://visualization.group/hattab/). My doctoral research explored the realms of Bioinformatics, DNA storage, and Data Visualization. I focused on addressing the challenges of long-term data storage using molecular media like DNA, where I developed frameworks for the automatic analysis and visualization of chemical storage clusters. This period was marked by deep dives into complex data sets, enhancing my expertise in managing and interpreting intricate biological data.
-
-Before my doctoral studies, I served as a Research Fellow and Supervisor at the [International Institute of Tropical Agriculture](https://www.iita.org/) in Ibadan, Nigeria. Under the guidance of Dr. Andreas Gisel, my work centered on molecular biology, specifically whole genome sequencing and annotation. My efforts here contributed significant insights to the field, fostering advancements in genomic research.
-
-My complete CV can be found [here](/files/pdf/Chisom_CV.pdf).
+The Visualization Group is led by [Dr. habil. Georges Hattab](https://visualization.group/hattab/).

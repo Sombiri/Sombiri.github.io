@@ -1,0 +1,38 @@
+/* Publication typography follows the existing AcademicPages reading layout. */
+.publications,
+.publication-detail {
+  max-width: 78ch;
+  overflow-wrap: break-word;
+}
+
+.publications__note {
+  font-size: 0.9em;
+}
+
+.publications__year > h2 {
+  margin: 1.75em 0 1em;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid $border-color;
+}
+
+.publication {
+  margin-bottom: 1.75em;
+}
+
+.publication__title {
+  margin: 0 0 0.4em;
+  font-size: 1.05em;
+  line-height: 1.4;
+}
+
+.publication__authors,
+.publication__venue,
+.publication__links {
+  margin: 0 0 0.4em;
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+.publication__status {
+  font-style: italic;
+}

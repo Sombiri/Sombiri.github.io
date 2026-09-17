@@ -1,15 +1,19 @@
 ---
-title: "3'-Tag RNA-Sequencing"
-collection: publications
-permalink: /publication/3'RNAseq_2021
-date: 2021-07-08
-venue: 'EMBnet.journal'
-#paperurl: '/files/pdf/3RNAseq_2021.pdf'
-link: 'http://dx.doi.org/10.14806/ej.26.A.968'
-#excerpt: "<!-- Replace with 1–2 sentence abstract. -->"
-#citation: "Temitayo Adebanji Olagunju, Chisom Ezekannagha, Andreas Gisel (2021). &quot;3'-Tag RNA-Sequencing.&quot; <i>EMBnet.journal</i>. 26(A)968. doi:10.14806/ej.26.A.968"
+layout: "publication"
+collection: "publications"
+title: "3′-Tag RNA-Sequencing"
+permalink: "/publication/3'RNAseq_2021"
+date: "2021-07-08"
+publication_year: 2021
+authors:
+  - "Temitayo Adebanji Olagunju"
+  - "Chisom Ezekannagha"
+  - "Andreas Gisel"
+venue: "EMBnet.journal"
+volume: "26"
+supplement: "A"
+article_number: "e968"
+link: "https://doi.org/10.14806/ej.26.A.968"
+link_label: "DOI"
+publication_order: 9
 ---
-
-<!---[Download paper here](/files/pdf/3RNAseq_2021) --->
-
-<!-- Recommended citation: Temitayo Adebanji Olagunju, **Chisom Ezekannagha**, Andreas Gisel (2021). "3'-Tag RNA-Sequencing." <i>EMBnet.journal</i>. 26(A)968. doi:10.14806/ej.26.A.968. -->

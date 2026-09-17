@@ -37,8 +37,7 @@ ActionCue is a process-transparency visualization that shows how multiple uncert
 
 <section class="project project--featured" aria-labelledby="unacorm" markdown="1">
 
-<!-- TODO: replace with final UNACORM logo/visual -->
-{% include project-visual.html name="UNACORM" %}
+{% include project-visual.html name="UNACORM" image="/images/software/unacorm.png" alt="UNACORM logo" kind="logo" %}
 
 <div class="project__content" markdown="1">
 
@@ -91,8 +90,7 @@ DNAsmart is an interactive visual-analytics tool for comparing DNA data-storage 
 
 <section class="project" aria-labelledby="metamp" markdown="1">
 
-<!-- TODO: replace with final MetaMP logo/visual -->
-{% include project-visual.html name="MetaMP" %}
+{% include project-visual.html name="MetaMP" image="/images/software/metamp.png" alt="MetaMP logo" kind="logo" %}
 
 <div class="project__content" markdown="1">
 
@@ -141,8 +139,7 @@ This work combined hierarchical text clustering with sentiment analysis to study
 
 <section class="project" aria-labelledby="capt" markdown="1">
 
-<!-- TODO: replace with final CAPT application/visualization screenshot -->
-{% include project-visual.html name="CAPT" %}
+{% include project-visual.html name="CAPT" image="/images/software/capt.png" alt="CAPT project visual" %}
 
 <div class="project__content" markdown="1">
 

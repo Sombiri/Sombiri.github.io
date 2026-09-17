@@ -1,0 +1,14 @@
+{% comment %}
+Reusable 4:3 visual slot. To replace a placeholder, add image="/images/..."
+and descriptive alt="..." to its include. Use kind="logo" for a logo;
+omit kind for a screenshot or figure. The surrounding layout stays unchanged.
+{% endcomment %}
+{% if include.image %}
+  <div class="project__visual{% if include.kind == 'logo' %} project__visual--logo{% endif %}">
+    <img src="{{ include.image | relative_url }}" alt="{{ include.alt | escape }}" loading="lazy" decoding="async">
+  </div>
+{% else %}
+  <div class="project__visual project__visual--placeholder" aria-hidden="true">
+    <span>{{ include.name | escape }}</span>
+  </div>
+{% endif %}

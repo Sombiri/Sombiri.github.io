@@ -16,11 +16,9 @@ redirect_from:
 
 ### Visualizing uncertainty-to-action composition for human oversight
 
-ActionCue is a process-transparency visualization that shows how multiple uncertainty conditions are combined into an oversight response. The underlying framework determines whether and how an AI-supported decision may proceed, while keeping that oversight response separate from the substantive domain decision itself.
+ActionCue is a process-transparency visualization that shows how multiple uncertainty conditions are combined into an oversight response. The underlying framework determines whether and how an AI-supported decision may proceed, while keeping that oversight response separate from the substantive domain decision itself. The approach was demonstrated through worked cases in healthcare, credit assessment, and disaster forecasting, and compared with confidence-only and data-level uncertainty displays.
 
-I designed and built ActionCue to make this composition process explicit and inspectable. The approach was demonstrated through worked cases in healthcare, credit assessment, and disaster forecasting, and compared with confidence-only and data-level uncertainty displays.
-
-**My contribution:** Design and implementation of ActionCue; visualization and interaction design.
+**Contribution:** Design and implementation of ActionCue; visualization and interaction design.
 {: .project__meta}
 
 **Themes:** Visualization · Human-AI Interaction · Uncertainty · Human Oversight
@@ -39,7 +37,7 @@ I designed and built ActionCue to make this composition process explicit and ins
 
 UNACORM provides a common environment for evaluating DNA data-storage codecs across multiple dimensions, enabling systematic and reproducible comparison of their performance and trade-offs. 
 
-**Contribution:** Co-led the project; application and UX design, experimental evaluation and validation, manuscript writing, and supervision of codec reimplementation.
+**Contribution:** Co-led the project; application and UX design, experimental evaluation and validation, and supervision of codec reimplementation.
 {: .project__meta}
 
 **Themes:** Evaluation & Reliability · Benchmarking · Visualization · Scientific Software
@@ -58,9 +56,7 @@ UNACORM provides a common environment for evaluating DNA data-storage codecs acr
 
 DNAsmart is an interactive visual-analytics tool for comparing DNA data-storage systems across multiple attributes. It allows users to explore how different evaluation criteria and their relative importance affect the ranking of competing approaches.
 
-I conceptualized and implemented the visualization and contributed to writing and reviewing the manuscript.
-
-**Contribution:** Conceptualized the project; implementation and visualization design, manuscript writing and review.
+**Contribution:** Conceptualized the project; implementation and visualization design.
 {: .project__meta}
 
 **Themes:** Visualization · Comparative Evaluation · Interactive Analytics
@@ -85,7 +81,7 @@ MetaMP brings together membrane-protein annotations from multiple sources in a u
 
 My contribution focused on critical review of the work, interpretation of benchmarking results, and manuscript review and editing.
 
-**My contribution:** Critical review · Benchmark interpretation · Manuscript review and editing
+**Contribution:** Critical review; Result and benchmark interpretation.
 {: .project__meta}
 
 **Themes:** Biomedical Research · Evaluation · Benchmarking
@@ -104,9 +100,7 @@ My contribution focused on critical review of the work, interpretation of benchm
 
 This work combined hierarchical text clustering with sentiment analysis to study large-scale public discourse around face masks during the COVID-19 pandemic. The approach enabled sentiment to be examined within topics and subtopics rather than only at the level of the complete dataset.
 
-I contributed to the analysis of the results and developed visualizations used to interpret the resulting patterns.
-
-**My contribution:** Results analysis · Data visualization
+**Contribution:** Results analysis and developed visualizations to interpret the resulting patterns.
 {: .project__meta}
 
 **Themes:** Public-Health AI · Visualization · Natural Language Processing
@@ -127,7 +121,7 @@ CAPT links phylogenetic and taxonomic representations to support interactive exp
 
 I improved the user interface and created the online version of the tool.
 
-**My contribution:** User-interface improvement · Web implementation
+**Contribution:** User-interface improvement and created the online version of the tool.
 {: .project__meta}
 
 **Themes:** Visualization · Bioinformatics · Interactive Systems

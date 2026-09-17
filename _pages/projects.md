@@ -37,11 +37,9 @@ I designed and built ActionCue to make this composition process explicit and ins
 
 ### Unified evaluation of DNA data-storage codecs
 
-UNACORM provides a common environment for evaluating DNA data-storage codecs across multiple dimensions, enabling systematic and reproducible comparison of their performance and trade-offs.
+UNACORM provides a common environment for evaluating DNA data-storage codecs across multiple dimensions, enabling systematic and reproducible comparison of their performance and trade-offs. 
 
-I co-led the work, designed the application and its user experience, conducted the experiments, evaluated and validated the results, and wrote the manuscript. I also supervised the reimplementation of the codecs used in the evaluation.
-
-**My contribution:** Co-leadership · Application and UX design · Experimental evaluation · Validation · Manuscript writing · Supervision
+**Contribution:** Co-led the project; application and UX design, experimental evaluation and validation, manuscript writing, and supervision of codec reimplementation.
 {: .project__meta}
 
 **Themes:** Evaluation & Reliability · Benchmarking · Visualization · Scientific Software
@@ -62,7 +60,7 @@ DNAsmart is an interactive visual-analytics tool for comparing DNA data-storage 
 
 I conceptualized and implemented the visualization and contributed to writing and reviewing the manuscript.
 
-**My contribution:** Conceptualization · Visualization design and implementation · Manuscript writing and review
+**Contribution:** Conceptualized the project; implementation and visualization design, manuscript writing and review.
 {: .project__meta}
 
 **Themes:** Visualization · Comparative Evaluation · Interactive Analytics

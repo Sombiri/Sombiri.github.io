@@ -6,7 +6,14 @@
   overflow-wrap: break-word;
 }
 
+.projects {
+  max-width: none;
+}
+
 .project {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.25em;
   padding: 1.75em 0;
 
   + .project {
@@ -17,9 +24,36 @@
     padding-top: 0.5em;
   }
 
+  &--featured {
+    padding-bottom: 2.5em;
+
+    + .project--featured {
+      padding-top: 2.5em;
+    }
+
+    .project__visual {
+      max-width: 28rem;
+    }
+  }
+
+  @include breakpoint($large) {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2.3fr);
+    gap: 1.75em;
+    align-items: start;
+
+    &--featured {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr);
+    }
+  }
+
   h2 {
     margin: 0 0 0.35em;
     line-height: 1.3;
+    font-size: 1.15em;
+  }
+
+  &--featured h2 {
+    font-size: $type-size-4;
   }
 
   h3 {
@@ -36,10 +70,64 @@
 
   .project__links {
     margin-top: 1em;
-    font-size: 0.9em;
+    font-size: 0.95em;
+
+    a {
+      display: inline-block;
+      padding: 0.1em 0;
+      text-underline-offset: 0.15em;
+    }
   }
+
+  .project__themes {
+    margin-bottom: 0.65em;
+    font-size: 0.875em;
+    color: mix(#fff, $text-color, 15%);
+  }
+}
+
+.project__content {
+  min-width: 0;
 
   > :last-child {
     margin-bottom: 0;
+  }
+}
+
+.project__visual {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 20rem;
+  aspect-ratio: 4 / 3;
+  border: 1px solid $border-color;
+  background: $background-color;
+
+  img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0.75em;
+    object-fit: contain;
+  }
+
+  &--logo img {
+    padding: 1.25em;
+    object-fit: scale-down;
+  }
+
+  &--placeholder {
+    padding: 1em;
+    background: $code-background-color;
+    text-align: center;
+    font-size: 0.9em;
+    color: mix(#fff, $text-color, 15%);
+  }
+
+  @include breakpoint($large) {
+    max-width: none;
   }
 }

@@ -1,0 +1,8 @@
+{% assign publication = include.publication %}
+{% assign publication_heading = include.heading | default: "h3" %}
+<article class="publication">
+  <{{ publication_heading }} class="publication__title">
+    <a href="{{ publication.link | default: publication.url | relative_url }}">{{ publication.title | escape }}</a>
+  </{{ publication_heading }}>
+  {% include publication-details.html publication=publication %}
+</article>

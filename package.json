@@ -1,22 +1,22 @@
 {
-  "name": "minimal-mistakes",
+  "name": "chisom-anyabolu-personal-website",
   "version": "3.4.2",
-  "description": "Minimal Mistakes Jekyll theme npm build scripts",
+  "description": "Personal academic website of Chisom Anyabolu; JavaScript build scripts derived from Minimal Mistakes.",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/minimal-mistakes.git"
+    "url": "https://github.com/Sombiri/Sombiri.github.io.git"
   },
   "keywords": [
+    "academic-website",
     "jekyll",
-    "theme",
-    "minimal"
+    "github-pages"
   ],
-  "author": "Michael Rose",
+  "author": "Chisom Anyabolu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
+    "url": "https://github.com/Sombiri/Sombiri.github.io/issues"
   },
-  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
+  "homepage": "https://sombiri.github.io/",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -29,5 +29,9 @@
     "uglify": "uglifyjs assets/js/vendor/jquery/jquery-1.12.4.min.js assets/js/plugins/jquery.fitvids.js assets/js/plugins/jquery.greedy-navigation.js assets/js/plugins/jquery.magnific-popup.js assets/js/plugins/jquery.smooth-scroll.min.js assets/js/plugins/stickyfill.min.js assets/js/_main.js -c -m -o assets/js/main.min.js",
     "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
     "build:js": "npm run uglify"
-  }
+  },
+  "private": true,
+  "contributors": [
+    "Michael Rose (upstream Minimal Mistakes theme and build scripts)"
+  ]
 }

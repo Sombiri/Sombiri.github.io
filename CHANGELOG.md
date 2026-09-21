@@ -1,3 +1,10 @@
+# Upstream theme history
+
+The entries below are the retained Minimal Mistakes release history inherited
+with the theme components. They describe upstream releases, not releases of
+Chisom Anyabolu's personal website. This site's changes are recorded in its git
+history. The original entries and links are preserved for provenance.
+
 ## [3.4.2](https://github.com/mmistakes/minimal-mistakes/releases/tag/3.4.2)
 
 ### Enhancements

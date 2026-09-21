@@ -6,8 +6,9 @@ analytics:
   provider: false
 
 comments:
+  provider: false
   disqus:
-    shortname            : "mmistakes-dev"
+    shortname            :
 
 sass:
   style: expanded

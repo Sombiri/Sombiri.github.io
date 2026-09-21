@@ -1,31 +1,74 @@
-A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+# Chisom Anyabolu — Personal Academic Website
 
-I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
+This repository contains the source code for my personal academic website:
 
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
+[https://sombiri.github.io/](https://sombiri.github.io/)
 
-# Instructions
+The site presents my research, projects, publications, and curriculum vitae.
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+## Main sections
 
-See more info at https://academicpages.github.io/
+- Home
+- Research
+- Projects
+- Publications
+- CV
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
+## Technical stack
 
-1. Clone the repository and made updates as detailed above
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle clean` to clean up the directory (no need to run `--force`)
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+- Jekyll, with dependencies managed by Bundler through `Gemfile` and `Gemfile.lock`.
+- GitHub Pages hosting.
+- AcademicPages / Minimal Mistakes-derived layouts, Liquid includes, and SCSS.
+- Markdown pages in `_pages/` and publication records in `_publications/`.
 
-# Changelog -- bugfixes and enhancements
+## Local development
 
-There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
+Use Ruby 3.3 and Bundler 4.0.16, the versions used to validate this repository.
+From the repository root:
 
-To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
+```sh
+bundle install
+bundle exec jekyll serve --safe --config _config.yml,_config.dev.yml
+```
+
+Open <http://localhost:4000>. Restart Jekyll after changing configuration files.
+Keep `Gemfile.lock` under version control; do not delete it as a troubleshooting
+step or to suppress dependency warnings.
+
+Run the production build and configuration checks with:
+
+```sh
+bundle exec jekyll build --safe --trace
+bundle exec jekyll doctor
+```
+
+Generated files are written to `_site/`. The existing GitHub Pages deployment
+uses this repository's Jekyll source and configuration.
+
+Node.js/npm is only needed when rebuilding the theme's JavaScript bundle. The
+existing optional commands are `npm install` followed by `npm run build:js`;
+normal content and SCSS changes use the Jekyll commands above.
+
+## Content maintenance
+
+Edit the main pages in `_pages/`, navigation in `_data/navigation.yml`, and
+site-wide settings in `_config.yml`. Publication metadata has one source of
+truth: `_publications/*.md`. Project images live in `images/software/`; the CV
+PDF is in `files/pdf/`.
+
+Legacy generators and sample records are retained for reference, not as current
+research content or setup instructions. See [the generator notes](markdown_generator/readme.md).
+Some sample pages and collections remain reachable through existing archives
+and the sitemap, so they have not been removed as part of the documentation
+cleanup. Their removal would need a separate reference and URL review.
+
+## Attribution
+
+This site originated from [AcademicPages](https://github.com/academicpages/academicpages.github.io),
+which is based on the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes)
+by Michael Rose. AcademicPages was adapted by Stuart Geiger. The repository has
+since been customized for this personal website.
+
+The original MIT license and copyright notice are preserved in [LICENSE](LICENSE).
+Third-party attribution and license notices remain in the source files. The
+[upstream changelog](CHANGELOG.md) is retained as historical reference.

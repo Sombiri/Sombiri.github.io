@@ -7,6 +7,10 @@ redirect_from:
   - /markdown.html
 ---
 
+This is a retained theme-formatting reference. Names, dates, and examples below
+are illustrative, not personal research records. For site maintenance, see the
+[repository README](https://github.com/Sombiri/Sombiri.github.io#readme).
+
 ## Locations of key files/directories
 
 * Basic config options: _config.yml
@@ -20,12 +24,12 @@ redirect_from:
   * _talks/
 * Footer: _includes/footer.html
 * Static files (like PDFs): /files/
-* Profile image (can set in _config.yml): images/profile.png
+* Profile image: the `author.avatar` setting in `_config.yml`, relative to `images/`
 
 ## Tips and hints
 
 * Name a file ".md" to have it render in markdown, name it ".html" to render in HTML.
-* Go to the [commit list](https://github.com/academicpages/academicpages.github.io/commits/master) (on your repo) to find the last version Github built with Jekyll. 
+* Go to the [commit list](https://github.com/Sombiri/Sombiri.github.io/commits) for this site to inspect changes and their build status.
   * Green check: successful build
   * Orange circle: building
   * Red X: error

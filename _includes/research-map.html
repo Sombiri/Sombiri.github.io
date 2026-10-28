@@ -1,0 +1,37 @@
+<section class="research-map" aria-label="Interactive research map" data-research-map>
+      <div class="research-map__subhead"><span class="research-map__caption">Four connected research questions</span><span class="research-map__hint">Select a theme to explore</span></div>
+      <div class="research-map__canvas">
+        <svg class="research-map__lines" viewBox="0 0 1100 500" preserveAspectRatio="none" aria-hidden="true">
+          <path data-to="assumptions" class="is-selected" d="M250 120 Q400 130 480 250"/><path data-to="evaluation" d="M850 120 Q700 130 620 250"/>
+          <path data-to="visual" d="M250 380 Q400 370 480 250"/><path data-to="biology" d="M850 380 Q700 370 620 250"/>
+        </svg>
+        <div class="research-map__hub"><span>Shared concern</span><strong>What does a result depend on?</strong></div>
+        <div class="research-map__cards">
+          <button type="button" class="research-map__card" data-theme="assumptions" aria-pressed="true" aria-controls="research-detail">
+            <span class="research-map__card-top"><span class="research-map__number">01 / QUESTIONS</span><svg class="research-map__glyph" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3v8m0 6v8M5 8l9 7 9-7M5 20l9-7 9 7"/><circle cx="14" cy="14" r="2.4" fill="currentColor" stroke="none"/></svg></span>
+            <strong>Evidence &amp; assumptions</strong>
+            <span class="research-map__note">What changes when a model learns under a different scientific account?</span>
+          </button>
+          <button type="button" class="research-map__card" data-theme="evaluation" aria-pressed="false" aria-controls="research-detail">
+            <span class="research-map__card-top"><span class="research-map__number">02 / COMPARISON</span><svg class="research-map__glyph" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 20h20M6 17l5-7 5 4 6-9"/><circle cx="11" cy="10" r="2" fill="currentColor" stroke="none"/></svg></span>
+            <strong>Evaluation &amp; reliability</strong>
+            <span class="research-map__note">Is a scientific conclusion stable across plausible alternatives?</span>
+          </button>
+          <button type="button" class="research-map__card" data-theme="visual" aria-pressed="false" aria-controls="research-detail">
+            <span class="research-map__card-top"><span class="research-map__number">03 / INSPECTION</span><svg class="research-map__glyph" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 14s5-7 12-7 12 7 12 7-5 7-12 7S2 14 2 14Z"/><circle cx="14" cy="14" r="4"/></svg></span>
+            <strong>Visual analytics &amp; oversight</strong>
+            <span class="research-map__note">How can people inspect uncertainty, trade-offs, and actions?</span>
+          </button>
+          <button type="button" class="research-map__card" data-theme="biology" aria-pressed="false" aria-controls="research-detail">
+            <span class="research-map__card-top"><span class="research-map__number">04 / SCIENCE</span><svg class="research-map__glyph" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M8 2c15 7-3 17 12 24M20 2C5 9 23 19 8 26M8 7h12M7 14h14M8 21h12"/></svg></span>
+            <strong>Computational biology</strong>
+            <span class="research-map__note">What can genomic, transcriptomic, and surveillance data support?</span>
+          </button>
+        </div>
+      </div>
+      <section id="research-detail" class="research-map__detail" aria-live="polite" aria-atomic="true">
+        <div><div class="research-map__label" id="detail-number">01 / EVIDENCE &amp; ASSUMPTIONS</div><h2 id="detail-title">Different accounts, different results?</h2></div>
+        <div><p class="research-map__question" id="detail-question">If the evidence supports more than one scientific account, which conclusions depend on the account used to train a model?</p><p class="research-map__explain" id="detail-explain">I compare alternative learning conditions and examine their effects on specific scientific quantities, including what is missed when full retraining is approximated.</p><p class="research-map__example" id="detail-example"><b>Research in practice:</b> controlled representation-learning experiments; AMR-genomics feasibility studies.</p></div>
+      </section>
+      <noscript><p>Selecting themes requires JavaScript. The four research themes and the default explanation remain available above.</p></noscript>
+    </section>

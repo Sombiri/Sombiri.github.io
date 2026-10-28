@@ -11,6 +11,7 @@ authors:
 venue: "IEEE VIS 2026 Uncertainty Visualization Workshop"
 status: "Accepted"
 publication_order: 1
-# TODO: Paper link — add link and link_label when supplied.
+link: "https://arxiv.org/abs/2608.16428"
+link_label: "Preprint"
 # TODO: Code link — add codeurl when supplied.
 ---

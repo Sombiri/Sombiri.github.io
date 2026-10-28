@@ -8,10 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a Postdoctoral Researcher at the [Robert Koch Institute](https://www.rki.de/EN) and a member of the [Visualization Group](https://visualization.group/) at the Center for Artificial Intelligence in Public Health(ZKI_PH).
+I am a computer scientist and postdoctoral researcher at the [Robert Koch Institute](https://www.rki.de/EN), where I am part of the [Visualization Group](https://visualization.group/) at the Center for Artificial Intelligence in Public Health Research.
 
-My research combines artificial intelligence, data visualization, and computational methods to study complex problems in biomedical and public-health research. I am particularly interested in how AI systems are evaluated, how uncertainty and model limitations are communicated and understood, and how visualization can support experts in exploring data, interpreting model behaviour, and making informed decisions.
+My research focuses on developing methods and tools for evaluating AI systems and interpreting their results. I am particularly interested in how evidence, modelling assumptions, and methodological choices influence what a model learns and the scientific conclusions drawn from it.
 
-My background spans bioinformatics, computational genomics, machine learning, data visualization, and scientific software development. Across these areas, my work has increasingly focused on questions of AI reliability: how we assess whether model outputs can be trusted, how modelling choices affect the conclusions we draw, and how uncertainty and limitations can be meaningfully incorporated into human decision-making.
+I approach these questions through experimental evaluation, explainability, and visual analytics. My work also examines how uncertainty and model limitations can be communicated to support informed human oversight.
 
-The Visualization Group is led by [Dr. habil. Georges Hattab](https://visualization.group/hattab/).
+My background spans computational biology, scientific software development, and data visualization. These areas continue to shape my research, particularly in biomedical and public-health settings.

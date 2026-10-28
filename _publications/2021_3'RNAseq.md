@@ -10,6 +10,7 @@ authors:
   - "Chisom Ezekannagha"
   - "Andreas Gisel"
 venue: "EMBnet.journal"
+publication_type: "Conference abstract / oral presentation"
 volume: "26"
 supplement: "A"
 article_number: "e968"

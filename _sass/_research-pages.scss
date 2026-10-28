@@ -131,3 +131,354 @@
     max-width: none;
   }
 }
+
+/* Approved project groups: retain the existing image/text layout and logos. */
+.projects__group {
+  margin-top: 2em;
+
+  > h2 {
+    padding-bottom: 0.4em;
+    border-bottom: 1px solid $border-color;
+  }
+}
+
+.project .project__title {
+  margin: 0 0 0.5em;
+  font-size: 1.15em;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.project--featured .project__title {
+  font-size: $type-size-4;
+}
+
+.project .project__question {
+  margin: 0 0 0.8em;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.project__figure {
+  margin: 0;
+  min-width: 0;
+}
+
+.project__caption {
+  margin-top: 0.6em;
+  font-family: inherit;
+  font-size: 0.875em;
+  line-height: 1.5;
+  color: $text-color;
+}
+
+.project__visual-link {
+  position: absolute;
+  inset: 0;
+
+  &:hover img {
+    box-shadow: none;
+  }
+}
+
+/* Research map component only; the site's typography and outer layout remain. */
+.research-overview {
+  max-width: 72ch;
+  margin-bottom: 1.75em;
+
+  h2 {
+    margin-top: 0;
+    font-size: 1.6em;
+    line-height: 1.25;
+    color: #203746;
+  }
+}
+
+.research-map {
+  container-type: inline-size;
+  container-name: research-map;
+  color: #203746;
+
+  &__subhead {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5em 1em;
+    margin-bottom: 0.9em;
+  }
+
+  &__caption,
+  &__hint {
+    font-size: 0.8em;
+    color: #405864;
+  }
+
+  &__caption {
+    font-weight: 700;
+  }
+
+  &__canvas {
+    position: relative;
+    isolation: isolate;
+    padding: 24px;
+    background: #f9fcfd;
+    border: 1px solid #dce9ee;
+    border-radius: 10px;
+  }
+
+  &__lines {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+
+    path {
+      fill: none;
+      stroke: #a0d3e0;
+      stroke-width: 1.5;
+      stroke-dasharray: 5 7;
+    }
+
+    path.is-selected {
+      stroke: #52adc8;
+      stroke-width: 3;
+      stroke-dasharray: none;
+    }
+  }
+
+  &__cards {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(164px, auto));
+    column-gap: 31%;
+    row-gap: 96px;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.65em;
+    width: 100%;
+    margin: 0;
+    padding: 1em;
+    font: inherit;
+    text-align: left;
+    color: #203746;
+    background: #fff;
+    border: 1px solid #c9dee5;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: none;
+
+    strong {
+      font-size: 1em;
+      line-height: 1.3;
+    }
+
+    &:hover {
+      border-color: #52adc8;
+    }
+
+    &:focus-visible {
+      outline: 3px solid #17627a;
+      outline-offset: 3px;
+    }
+
+    &[aria-pressed="true"] {
+      background: #eaf6fa;
+      border-color: #17627a;
+      box-shadow: inset 3px 0 #52adc8;
+    }
+  }
+
+  &__card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5em;
+    width: 100%;
+  }
+
+  &__number {
+    color: #17627a;
+    font-size: 0.75em;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+  }
+
+  &__glyph {
+    width: 28px;
+    height: 28px;
+    flex: none;
+    color: #17627a;
+  }
+
+  &__note {
+    font-size: 0.85em;
+    line-height: 1.45;
+    color: #405864;
+  }
+
+  &__hub {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4em;
+    width: clamp(190px, 25%, 224px);
+    min-height: 118px;
+    padding: 1em 1.2em;
+    border-radius: 50%;
+    background: #203746;
+    color: #fff;
+    text-align: center;
+
+    span {
+      color: #d1edf5;
+      font-size: 0.7em;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    strong {
+      font-size: 1.05em;
+      font-weight: 500;
+      line-height: 1.3;
+    }
+  }
+
+  &__detail {
+    display: grid;
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.5fr);
+    gap: 1.5em;
+    margin-top: 1em;
+    padding: 1.25em;
+    border: 1px solid #dce9ee;
+    border-radius: 8px;
+
+    h2 {
+      margin: 0.5em 0 0;
+      font-size: 1.15em;
+      line-height: 1.3;
+    }
+  }
+
+  &__label {
+    color: #17627a;
+    font-size: 0.75em;
+    font-weight: 700;
+  }
+
+  &__question {
+    margin: 0 0 0.6em;
+    font-size: 0.95em;
+    font-weight: 600;
+  }
+
+  &__explain {
+    margin: 0 0 0.7em;
+    font-size: 0.9em;
+    color: #405864;
+  }
+
+  &__example {
+    margin: 0;
+    font-size: 0.8em;
+    color: #405864;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+}
+
+@container research-map (max-width: 750px) {
+  .research-map__hub {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    width: 224px;
+    max-width: 100%;
+    margin: 0 auto 36px;
+  }
+
+  .research-map__cards {
+    grid-template-rows: auto auto;
+    gap: 16px;
+  }
+
+  .research-map__card {
+    min-height: 160px;
+  }
+
+  .research-map__detail {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1em;
+  }
+
+  .research-map__lines {
+    visibility: hidden;
+  }
+
+  .research-map[data-enhanced] .research-map__lines {
+    visibility: visible;
+  }
+}
+
+@container research-map (max-width: 420px) {
+  .research-map__cards {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .research-map__card {
+    min-height: 126px;
+  }
+
+  .research-map__hint {
+    display: none;
+  }
+}
+
+/* Native PDF viewer with visible opening/download fallbacks above it. */
+.cv-page__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35em 0.6em;
+  margin: 1em 0;
+}
+
+.cv-page__viewer {
+  max-width: 100%;
+  margin-top: 1em;
+  border: 1px solid $border-color;
+
+  iframe {
+    display: block;
+    width: 100%;
+    height: 78vh;
+    min-height: 600px;
+    max-height: 1000px;
+    border: 0;
+  }
+
+  @media (max-width: 600px) {
+    iframe {
+      height: 65vh;
+      min-height: 420px;
+    }
+  }
+}

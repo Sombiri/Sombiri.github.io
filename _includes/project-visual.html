@@ -1,14 +1,21 @@
 {% comment %}
-Reusable 4:3 visual slot. To replace a placeholder, add image="/images/..."
-and descriptive alt="..." to its include. Use kind="logo" for a logo;
-omit kind for a screenshot or figure. The surrounding layout stays unchanged.
+Reusable 4:3 visual slot. Logos retain their original assets and proportions.
+Optional full_image and caption provide context for supplied scientific figures.
 {% endcomment %}
-{% if include.image %}
-  <div class="project__visual{% if include.kind == 'logo' %} project__visual--logo{% endif %}">
-    <img src="{{ include.image | relative_url }}" alt="{{ include.alt | escape }}" loading="lazy" decoding="async">
-  </div>
-{% else %}
-  <div class="project__visual project__visual--placeholder" aria-hidden="true">
-    <span>{{ include.name | escape }}</span>
-  </div>
-{% endif %}
+<figure class="project__figure">
+  {% if include.image %}
+    <div class="project__visual{% if include.kind == 'logo' %} project__visual--logo{% endif %}">
+      {% if include.full_image %}<a class="project__visual-link" href="{{ include.full_image | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open full {{ include.name | escape }} figure in a new tab">{% endif %}
+      <img src="{{ include.image | relative_url }}" alt="{{ include.alt | escape }}" loading="lazy" decoding="async">
+      {% if include.full_image %}</a>{% endif %}
+    </div>
+  {% else %}
+    <div class="project__visual project__visual--placeholder" aria-hidden="true"><span>{{ include.name | escape }}</span></div>
+  {% endif %}
+  {% if include.caption %}
+    <figcaption class="project__caption">
+      {% if include.credit_url %}<a href="{{ include.credit_url }}">{{ include.caption | escape }}</a>{% else %}{{ include.caption | escape }}{% endif %}
+      {% if include.full_image %} <a href="{{ include.full_image | relative_url }}" target="_blank" rel="noopener noreferrer">Full figure</a>{% endif %}
+    </figcaption>
+  {% endif %}
+</figure>

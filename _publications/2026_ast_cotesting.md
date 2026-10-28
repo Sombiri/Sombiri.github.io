@@ -13,7 +13,6 @@ authors:
   - "Georges Hattab"
 venue: "iScience"
 volume: "29(10)"
-status: "Published online September 22, 2026"
 link: "https://doi.org/10.1016/j.isci.2026.117421"
 link_label: "DOI"
 paperurl: "https://www.cell.com/iscience/fulltext/S2589-0042(26)02799-9"

@@ -11,7 +11,7 @@ title                    : "Chisom Anyabolu"
 title_separator          : "-"
 name                     : &name "Chisom Anyabolu"
 description              : &description "Personal academic website of Chisom Anyabolu."
-url                      : https://Sombiri.github.io # Canonical GitHub Pages site URL
+url                      : https://sombiri.github.io # Canonical GitHub Pages site URL
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Sombiri/Sombiri.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -62,18 +62,25 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "images/profile.png"  # Open Graph/Twitter default site image
+og_image                 : "/images/profile-pic.png"  # Existing profile photo for social previews
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Person"
+  name                   : "Chisom Anyabolu"
+  alternate_name         : "Chisom Ezekannagha"
+  links:
+    - "https://orcid.org/0000-0003-3433-3340"
+    - "https://scholar.google.com/citations?user=QU3WdWwAAAAJ&hl=en"
+    - "https://github.com/Sombiri"
+    - "https://www.linkedin.com/in/chisom-anyabolu"
 
 
 # Analytics
 analytics:
-  provider               :  false # false (default), "google", "google-universal", "custom"
+  provider               : "goatcounter" # false, "goatcounter", "google", "google-universal", "custom"
+  goatcounter:
+    endpoint             : "https://anyaboluchisom.goatcounter.com/count"
   google:
     tracking_id          :
 

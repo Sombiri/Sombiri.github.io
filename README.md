@@ -72,3 +72,27 @@ since been customized for this personal website.
 The original MIT license and copyright notice are preserved in [LICENSE](LICENSE).
 Third-party attribution and license notices remain in the source files. The
 [upstream changelog](CHANGELOG.md) is retained as historical reference.
+
+## Search and analytics setup
+
+The five main pages have search descriptions in their front matter. The homepage
+also has a `seo_title` used in browser/search metadata; its visible heading is
+unchanged. `_includes/seo.html` renders canonical URLs, social previews, and
+Person/WebSite structured data using the public profile links in `_config.yml`.
+Publication descriptions are generated from the existing publication records.
+
+To connect Google Search Console, add a URL-prefix property for
+`https://sombiri.github.io/`, select HTML-tag verification, and put only the
+verification token in `google_site_verification` in `_config.yml`. Deploy that
+change, verify ownership, and submit `https://sombiri.github.io/sitemap.xml`.
+The token must come from the site's owner account; no placeholder is enabled.
+
+GoatCounter is configured in `_config.yml` using the owner's supplied endpoint.
+The tracker loads asynchronously on the published site; visit statistics are
+available at `https://anyaboluchisom.goatcounter.com/` after signing in as needed.
+Tracking begins once these changes are deployed. `_config.dev.yml` disables
+analytics for local previews, and GoatCounter also ignores localhost by default.
+
+The inherited `google` / `google-universal` provider snippets are legacy
+integrations, not Google Analytics 4. GA4 would require a current Google tag
+integration rather than inserting a `G-` ID into those legacy snippets.

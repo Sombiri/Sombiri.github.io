@@ -3,6 +3,8 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+
+description: "Publications by Chisom Anyabolu, with earlier work as Chisom Ezekannagha, covering AI evaluation, visualization, and computational biology."
 ---
 <div class="publications">
   <p class="publications__note">Earlier publications appear under the name Chisom Ezekannagha.</p>

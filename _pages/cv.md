@@ -5,6 +5,8 @@ permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
+
+description: "Read or download Chisom Anyabolu's academic CV, including research experience, publications, teaching, and scientific software."
 ---
 
 You can read my academic CV below, open it in a new tab, or download a PDF copy.

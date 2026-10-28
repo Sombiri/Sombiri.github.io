@@ -6,6 +6,8 @@ author_profile: true
 redirect_from:
   - /software/
   - /software.html
+
+description: "Explore Chisom Anyabolu's research projects and contributions to ActionCue, UNACORM, DNAsmart, CAPT, and biomedical research."
 ---
 
 <div class="projects" markdown="1">

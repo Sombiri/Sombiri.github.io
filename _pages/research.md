@@ -3,6 +3,8 @@ layout: archive
 title: "Research"
 permalink: /research/
 author_profile: true
+
+description: "Research on how evidence, assumptions, evaluation choices, and visualization shape computational findings in biomedical and public-health research."
 ---
 
 <div class="research-overview" markdown="1">

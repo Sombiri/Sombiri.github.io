@@ -6,6 +6,9 @@ author_profile: true
 redirect_from:
   - /about/
   - /about.html
+
+seo_title: "Chisom Anyabolu — Computer Scientist & Postdoctoral Researcher"
+description: "Chisom Anyabolu is a computer scientist researching AI evaluation, uncertainty, and visual analytics at the Robert Koch Institute."
 ---
 
 I am a computer scientist and postdoctoral researcher at the [Robert Koch Institute](https://www.rki.de/EN), where I am part of the [Visualization Group](https://visualization.group/) at the Center for Artificial Intelligence in Public Health Research.
